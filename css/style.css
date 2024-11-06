@@ -1,5 +1,8 @@
 body {
     margin: 0;
+    background-image:url(../img/fondo.png) ;
+    background-attachment: fixed;
+    
 }
 
 * {
@@ -11,6 +14,7 @@ body {
 .container {
     width: 90%;
     margin: 0 auto;
+    
 }
 /* For mobile: */
 @media screen and (max-width: 1000px) {
@@ -103,6 +107,7 @@ body {
 .shadow {
     box-shadow: 0 0 20px gainsboro;
     border-radius: 10px;
+    background-color: rgba(255, 255, 255,0.5);
 }
 nav ul{
     padding: 0;
@@ -128,11 +133,12 @@ nav li {
 }
 
 nav li a {
-    color: rgb(18, 0, 110);
+    color: rgb(0, 0, 0);
 }
 
 nav li:hover {
     background-color:  rgb(225, 245, 253);
+    border-radius: 10px;
 }
 
 .text-right{
@@ -147,18 +153,23 @@ a {
 }
 .py-3 {
     padding: 16px 0;
-    text-align: center;
+    
     border-radius: 5%;
+    
 }
 .px-3 {
     padding: 0 16px;
+    border-radius: 10px;
+    
 }
 .p-3 {
     padding: 16px;
+    
 }
 
 .bg-azul-o {
     background-color: rgb(0 157 222);
+    border-radius: 10px;
 }
 .bg-azul-c {
     background-color: rgb(240, 249, 252);
@@ -220,6 +231,7 @@ h1 {
 }
 #listas .customdes li {
     list-style-type: square;
+    
 }
 #listas .customdes li li {
     list-style-type: disc;
@@ -333,4 +345,11 @@ audio {
 }
 .text-center {
     text-align: center;
+}
+.lace{
+    text-align: center;
+}
+/*
+p, h1, h2, h3{
+    color: white;
 }

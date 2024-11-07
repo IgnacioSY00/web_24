@@ -1,0 +1,39 @@
+.horario {
+    text-align:center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 auto;
+}
+.cabecera {
+    background-color: #f0f0f0;
+    color: #297a72;
+}
+.prog {
+    background-color: #64b4ef;
+}
+.bdd {
+    background-color: #81ff81;
+}
+.sisi {
+    background-color: #65aa97;
+}
+.lmsg {
+    background-color: #d2d36d;
+}
+.pimd {
+    background-color: #fec997;
+}
+.ipcg {
+    background-color: #ffa164;
+}
+.sasp {
+    background-color: #28c8c8;
+}
+.dasp {
+    background-color: #ffff63;
+}
+.ipe {
+    background-color: #fe8081;
+}
+.ende {
+    background-color: #c9a0c8;
+}

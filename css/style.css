@@ -249,7 +249,7 @@ h1 {
     list-style-type: decimal;
 }
 #listas .customico li li {
-    list-style-image: url("../img/corazon.png");
+    list-style-image:url(../img/logo23.png) ;
 }
 #listas .customico li li li{
     list-style-image: none;
